@@ -27,7 +27,10 @@
     <ClCompile Include="data.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="skills.cpp">
+    <ClCompile Include="armorset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,7 +44,16 @@
     <ClInclude Include="data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="skills.h">
+    <ClInclude Include="treeskill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="activeskill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="armorset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

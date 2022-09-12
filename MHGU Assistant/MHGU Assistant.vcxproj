@@ -140,16 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="armor.cpp" />
+    <ClCompile Include="armorset.cpp" />
     <ClCompile Include="decoration.cpp" />
     <ClCompile Include="data.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="skills.cpp" />
+    <ClCompile Include="search.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="activeskill.h" />
     <ClInclude Include="armor.h" />
+    <ClInclude Include="armorset.h" />
     <ClInclude Include="decoration.h" />
     <ClInclude Include="data.h" />
-    <ClInclude Include="skills.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="treeskill.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
